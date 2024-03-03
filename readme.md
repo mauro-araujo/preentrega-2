@@ -1,0 +1,1 @@
+Este en un proyecto en el cual realizamos highlights (editado de videos de en este caso jugadores de basquet) el cual hacemos para estos mismos jugadores y con este material puedan hacerse ver para llamar la atencion de entrenadores, clubes o agentes. De esta forma pueden lograr tener acceso a diferentes contratos o mercados para que sean tomados en cuenta.
