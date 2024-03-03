@@ -107,6 +107,11 @@ p {
     color: white;
 }
 
+.listas li a:hover {
+    background-color: rgb(220, 217, 215);
+    color: black;
+}
+
 /* MAIN Contactos */
 
 .tituloContactos {
