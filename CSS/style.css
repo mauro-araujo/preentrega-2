@@ -1,0 +1,560 @@
+* { margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* HEADER */
+header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid gray;
+}
+/* imagen logo */
+Header div {
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    
+}
+
+headerdiv {
+    display: flex;
+}
+
+.imagenTexto {
+    display: flex;
+    align-items: center;
+}
+
+.tituloPC {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+header div img {
+    display: flex;
+    width: 300px;
+    
+}
+
+/* navegador header */
+h1 {
+    display: flex;
+    color: white; 
+    padding-top: 15px;
+    margin-left: 1rem; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerSmarth {
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    width: 30px;
+    padding-right: 8px;
+    padding-top: 15px;
+}
+
+/* NAV JS */
+.nav-js {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Main */
+
+.videosIndex {
+    display: block;
+    text-align: center;
+} 
+        /* Main quines somos */
+.quinesSomos {
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 2rem;
+}   
+        /*Main Jugadores  */
+
+.tituloJugadores {
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.listas li {
+    padding-bottom: 0.5rem;
+    text-align: center;
+    list-style-type: decimal;
+}
+
+.listas a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN Contactos */
+
+.tituloContactos {
+    margin-bottom: 2rem;
+    align-items: center;
+    color: white;
+    
+}
+
+
+.logoTelefono {
+    width: 30px;
+    margin-left: 2rem;
+}
+
+.logoMail {
+    width: 30px;
+    margin-left: 2rem;
+}
+
+.numero a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.mail {
+    text-decoration: none;
+    color: white;  
+}
+
+fieldset {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+legend {
+    color: white;
+    padding: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.formulario {
+    display: block;
+    color: white;
+    padding-left: 1rem;
+}
+
+.formulario input {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.bordes:focus {
+    background-color: rgb(207, 206, 206);
+    color: black;
+    border: 5px solid yellow;
+}
+
+textarea {
+    font-size: larger;
+}
+
+
+
+/* MAIN Araujo */
+
+.tituloAraujo {
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.datos {
+    color: white;
+}
+
+.datos h2 {
+   margin: 2rem;
+}
+
+.datos ul {
+    margin-left: 3rem;
+}
+
+.datos li {
+    padding-bottom: 1rem;    
+}
+
+.datosGenerales li {
+    list-style-type: none;
+}
+
+.trayectoria li {
+    list-style-type: circle;
+}
+
+.sectionVideos {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+ .tituloVideo {
+    display: block;
+    color: white;
+    margin: 2rem;
+}
+
+.videos {
+    margin: 2rem;
+}
+
+/* videos mobile */
+
+.videosMobile {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid gray;
+    margin-top: 2rem;
+}
+
+footer img {
+    width: 200px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+    
+.divFooter {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    position: relative;
+    bottom: 50px;
+}
+
+ .imagenFooter {
+    width: 35px;
+    padding: 0.5rem;
+} 
+
+.logoFooter {
+    width: 200px;
+    margin: 0;
+}
+
+
+.carruselCentrado {
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copy {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    text-align: center;
+    position: relative;
+    bottom: 50px;    
+}
+
+
+
+
+
+
+
+/* First mobile */
+@media only screen and (max-width: 426px){
+    body{
+        background-color: black;
+    }
+    .lista-header {
+         display: none;
+    } 
+    .tituloMobile { 
+        display: none;
+    }
+    /* TItulo para PC y Tablet */
+    .tituloPC {
+        display: none;
+    }
+
+    /* cambia de lado los item del menu desplegable*/
+    .items { 
+        text-align: right;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+    }
+
+
+    /* carrusel  */
+
+    .carruselDesktop {
+        display: none;
+    }
+
+
+    .sacarCarrusel {
+        display: none;
+    }
+
+    
+
+    .carruselTablet {
+        text-align: center;
+    }
+
+
+} 
+
+
+/* hasta tablet */
+
+@media only screen and (min-width: 426px) and (max-width: 1023px){
+    body{
+        background-color: black
+    }
+
+    h1 {
+        display: none;
+    }
+    
+  
+    /* NAV BOOTSTRAP */
+
+    .navbar { /* esta en el nav principal */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+    
+    .items { /* cambia de lado el los item del menu */
+        text-align: right;
+    }
+
+    .mauro {/* cambia de lugar la img del menu */
+        justify-content: right !important;
+
+    }
+
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    /* ---------------- */
+
+    .lista-header { display: none;}
+
+    .videosIndex iframe {
+        width: 330px;
+        height: 250px;
+        margin: 1rem;
+    }
+
+    /* main jugadores */
+    .listaJugadores {  
+        display: flex;
+        justify-content: center;
+    }
+
+    .tituloJugadores {
+        text-align: center;
+        color: white;
+        padding-top: 3em;
+    }
+
+    .listas a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .listas li {
+        padding-bottom: 1rem;
+        color: white;
+        list-style-type: disc;
+    } 
+
+    .listas {
+        margin: 2rem;
+    }
+
+    /* MAIN Contactos */
+
+    .consulta {
+        display: block;
+    }
+
+    textarea {
+        width: 75%;
+    }
+
+    /* MAIN ARAUJO */
+
+    .listas li a {
+        display: flex;
+        text-align: left;
+    }
+
+
+    /* Videos Araujo */
+    .carruselDesktop {
+        display: none;
+    }
+
+    .carruselTablet {
+        text-align: center;
+    }
+  
+
+    .sacarCarrusel {
+        display: none;
+    }
+
+    .videosTablet {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+}
+
+
+/* DESKTOP EN ADELANTE */
+@media only screen and (min-width: 1024px){
+
+    .navbar {
+        display: none;
+    }
+
+    .headerSmarth {
+        display: none;
+    }
+    .lista-header {
+        display: flex; 
+        justify-content: end;
+        margin-bottom: 10px;
+    }
+    .lista-header ul{
+        display: flex;
+        list-style-type: none;
+    }
+
+    .lista-header ul li a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+    }
+
+    .videosIndex iframe {
+        margin: 1rem;
+    }
+    
+    .parrafo {
+        text-align: left;
+    }
+
+    .videosIndex iframe {
+        width: 350px;
+        height: 300px;
+    }
+
+    iframe:hover {
+        transform: scale(1.1);
+    }
+
+    .agrandar:hover {
+        transform: scale(1.1);
+    }
+    /* main jugadores */
+.listaJugadores {  
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloJugadores {
+    text-align: center;
+    color: white;
+    padding-top: 3em;
+}
+
+.listas a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.listas li {
+    padding-bottom: 1rem;
+    color: white;
+    list-style-type: disc;
+} 
+
+.listas {
+    margin: 2rem;
+}
+
+
+/* MAIN Contactos */
+
+.consulta {
+    display: block;
+}
+
+textarea {
+    width: 75%;
+}
+
+/* MAIN Araujo */
+
+.listas li a {
+    display: flex;
+    text-align: left;
+}
+
+
+/* VIDEOS ARAUJO */
+.videosMobile {
+    display: none;
+}
+
+.carruselDesktop {
+    text-align: center;
+}
+
+.carruselTablet {
+    display: none;
+}
+
+}
+
